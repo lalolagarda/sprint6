@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 car_data = pd.read_csv(
-    '/sprint6/vehicles_us.csv')  # Load data
+    'vehicles_us.csv')  # Load data
 hist_button = st.button('Construir histograma')  # Button to build histogram
 # Button to build scatterplot
 scatter_button = st.button('Construir grafico de dispersion')
